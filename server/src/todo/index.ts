@@ -1,3 +1,3 @@
-export { getTodosHandler } from './getTodosHandler';
+export { getTodoHandler } from './getTodoHandler';
 export { getTodoByIdHandler } from './getTodoByIdHandler';
 export { Todo } from './types';
