@@ -1,6 +1,5 @@
 FROM alpine:latest
 RUN apk add --no-cache nodejs npm yarn
-RUN ls
 
 WORKDIR /app
 COPY . /app
