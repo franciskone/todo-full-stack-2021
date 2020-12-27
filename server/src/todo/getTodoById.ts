@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import { dummyTodos } from './dummyData';
 import { Todo } from './types';
 
-export const getTodoByIdHandler = (
+export const getTodoById = (
 	req: Request,
 	res: Response<Todo | string>
 ) => {
