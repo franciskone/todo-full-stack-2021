@@ -1,0 +1,14 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "typescript"
+  ],
+  "rules": {
+    "prefer-arrow-callback": "error",
+    "no-multiple-empty-lines": ["error", {"max":  1}],
+    "padded-blocks": ["error","never"],
+    "quotes": ["error", "single"],
+    "object-curly-spacing": ["error", "always"],
+    "max-len": "error"
+  }
+}
