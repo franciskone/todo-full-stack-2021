@@ -1,7 +1,6 @@
 node_modules
-
-# typescript build folder
 dist
+.eslintcache
 
 #IDE
 .idea
