@@ -2,3 +2,6 @@ node_modules
 
 # typescript build folder
 dist
+
+#IDE
+.idea
